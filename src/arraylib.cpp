@@ -57,3 +57,4 @@ double arr_median(const int* arr, std::size_t n) {
         return (static_cast<double>(tmp[n / 2 - 1]) + static_cast<double>(tmp[n / 2])) / 2.0;
     }
 }
+//массив не изменяется
